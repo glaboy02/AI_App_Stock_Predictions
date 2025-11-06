@@ -12,10 +12,7 @@ function getDateNDaysAgo(n) {
     return formatDate(now);
 }
 
-const dates = {
+export const dates = {
     startDate: getDateNDaysAgo(3),
     endDate: getDateNDaysAgo(1)
-}
-
-// Make dates available globally
-window.dates = dates;
+};

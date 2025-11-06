@@ -1,3 +1,6 @@
+// Import dates utility
+import { dates } from './dates.js';
+
 // Configuration - API endpoints
 const API_ENDPOINTS = {
     OPENAI: 'https://openai-api-worker.glaboy02.workers.dev/api',
